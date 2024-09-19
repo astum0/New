@@ -47,7 +47,7 @@ body{
 
 .header__inner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -60,10 +60,26 @@ body{
     font-size: 18px;
     transition: all 150ms ease-in-out;
     opacity: 70%;
+    display: flex;
+    gap: 4px;
+}
+
+.header__logo-icon{
+    width: 45px;
+    height: auto;
 }
 
 .header__menu-catalog:hover{
     opacity: 100%;
+}
+
+.header__menu{
+    
+}
+
+.header__menu-logo{
+    width: 20px;
+    height: auto;
 }
 
 .header__logo-icon{
@@ -80,4 +96,24 @@ a{
     height: 60px;
     align-items: center;
     display: flex;
+}
+
+.main__section{
+    padding: 75px 0;
+}
+
+.welcome__text{
+    
+}
+
+.welcome__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome__title{
+    font-size: 28px;
+    font-weight: 400;
 }
