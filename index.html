@@ -12,106 +12,103 @@
         <div class="container header__container">
             <div class="header__inner">
                 <div class="header__logo">
-                    <img src="src/img/github-mark.png" alt="Logo" class="header__logo-icon">        
+                    <img src="src/img/gihub.png" alt="Logo" class="header__logo-icon">        
                     </img>
                 </div>
                 <div class="header__menu">
                     <button id="button" class="header__menu-catalog">
-                        <img src="src/img/hamburger.png" alt="" class="header__menu-logo"> Каталог
+                        <img src="src/img/hamb.png" alt="" class="header__menu-logo"> Каталог
                     </button>
                 </div>
                 <nav id="burger" class="header__nav header__nav-none nav">
                     <menu class="nav__menu">
-                        <li class="nav__list"><a href="" class="nav__link">Главная</a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Что такое GitHub?</a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Для чего используется GitHub?</a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Что такое Git Bash?</a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Основные команды</a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Основные термины </a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Особенности </a></li>
-                        <li class="nav__list"><a href="" class="nav__link">Материалы для работы</a></li>
+                        <li class="nav__list"><a href="#welcome" class="nav__link">Что такое GitHub?</a></li>
+                        <li class="nav__list"><a href="#use" class="nav__link">Для чего используется GitHub?</a></li>
+                        <li class="nav__list"><a href="#bash" class="nav__link">Что такое Git Bash?</a></li>
+                        <li class="nav__list"><a href="#com" class="nav__link">Основные команды</a></li>
+                        <li class="nav__list"><a href="#term" class="nav__link">Основные термины </a></li>
+                        <li class="nav__list"><a href="#special" class="nav__link">Особенности </a></li>
+                        <li class="nav__list"><a href="#materials" class="nav__link">Материалы для работы</a></li>
                     </menu>
                 </nav>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="main__section welcome">
+        <section id="welcome" class="main__section welcome">
             <div class="container welcome__container">
-                <h1 class="welcome__title">Что такое GitHub?</h1>
-                <p class="welcome__text">GitHub - это веб-интерфейс, использующий Git, 
-                        программное обеспечение с открытым кодом <br>для контроля версий, которое
-                         позволяет нескольким людям одновременно вносить отдельные изменения на веб-страницы.</p>
+                <h1 class="title__h welcome__title">Что такое GitHub?</h1>
+                <p class="text__p welcome__text">GitHub - это веб-интерфейс, использующий Git, 
+                        программное обеспечение с открытым кодом для контроля версий, которое
+                         позволяет<br> нескольким людям одновременно вносить отдельные изменения на веб-страницы.</p>
             </div>
         </section>
-        <section class="main__section use">
+        <section id="use" class="main__section use">
             <div class="container use__container">
-                <h1 class="use__title">
+                <h2 class="title__h use__title">
                     Для чего используют GitHub?
-                </h1>
-                <p class="use__text">
-                    GitHub используют например для хранения веб-сайтов или программ. <br>
-                    В GitHub размещается основной репозиторий всех проектов. Из этого репозитория участники копируют свою работу.
+                </h2>
+                <p class="text__p use__text">
+                    GitHub используют например для хранения<br> веб-сайтов или программ. <br>
+                    В GitHub размещается основной репозиторий<br> всех проектов. Из этого репозитория участники копируют свою работу.
                 </p>
             </div>
         </section>
-        <section class="main__section bash">
+        <section id="bash" class="main__section bash">
             <div class="container bash__container">
-                <h1 class="bash__title">Для чего используется Git Bash?</h1>
-                <p class="bash__text">Git Bash - это командная строка в Windows, которая позволяет выполнять команды Git.
+                <h3 class="title__h bash__title">Для чего используется Git Bash?</h3>
+                <p class="text__p bash__text">Git Bash - это командная строка в Windows, которая позволяет выполнять команды Git.
                     Помимо них, она содержит все стандартные команды Bash. Git GUI - это графический интерфейс для Git, который позволяет выполнять,
                     все основные операции с Git без использования командной строки.
                 </p>
             </div>
         </section>
-        <section class="section__com com">
+        <section id="com" class="section__com com">
             <div class="container com__container">
                 <div class="com__inner">
-                    <h1 class="com__title">Основные комманды GitHub</h1>
-                    <table class="com__table">
-                        <tr class="com__tr">
-                            <th class="com__th">Создание репозитория</th>
-                            <th class="com__th">Скачать репозиторий</th>
-                            <th class="com__th">Состояние репозитория</th>
-                            <th class="com__th">Сохраняем изменения</th>
-                            <th class="com__th">Обновление</th>
-                        </tr>
-                        <tr class="com__tr">
-                            <td class="com__td">
-                                git init {имя проекта}
-                            </td>
-                            <td class="com__td">
-                                git clone {url}
-                            </td>
-                            <td class="com__td">
-                                git status
-                            </td>
-                            <td class="com__td">
-                                git add .
-                            </td>
-                            <td class="com__td">
+                    <h1 class="title__h com__title">Основные комманды GitHub</h1>
+                    <div class="com__block">
+                        <div class="text__p com__block-title">
+                            Создание репозитория<br>
+                            Скачать репозиторий<br>
+                            Состояние репозитория<br>
+                            Сохраняем изменения<br>
+                            Обновление
+                        </div>
+                        <div class="text__p com__block-answers">
+                                git init {имя проекта}<br>
+                                git clone {url}<br>
+                                git status<br>
+                                git add .<br>
                                 git pull
-                            </td>
-                        </tr>
-                    </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section__term term">
+        <section id="term" class="section__term term">
             <div class="container term__container">
                 <div class="term__inner">
-                    <h1 class="term__title">
+                    <h3 class="title__h term__title">
                         Терминология GitHub
-                    </h1>
+                    </h3>
                     
                 </div>
             </div>
         </section>
-        <section class="section__">
-            <div class="container __container">
-                <div class="__inner">
-                    <h1 class="__title"></h1>
-                    <p class="__text"></p>
+        <section class="section">
+            <div class="container special__container">
+                <div class="special__inner">
+                    <h3 class="title__h special__title"></h3>
+                    <p class="text__p special__text"></p>
+                </div>
+            </div>
+        </section>
+        <section id="materials" class="section__materials">
+            <div class="container materials__container">
+                <div class="materials__inner">
+                    <h3 class="title__h materials__title"></h3>
+                    <p class="text__p materials__text"></p>
                 </div>
             </div>
         </section>
