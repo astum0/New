@@ -77,10 +77,6 @@ body{
     opacity: 100%;
 }
 
-.header__menu{
-    
-}
-
 .header__menu-logo{
     width: 40px;
     height: auto;
@@ -179,9 +175,6 @@ a:hover{
     align-items: center;
 }
 
-.com__inner{
-}
-
 .com__block{
     display: flex;
     gap: 40px;
@@ -206,5 +199,58 @@ a:hover{
 .com__block-answers{
     display: flex;
     flex-direction: column;
+    line-height: 50px;
+}
+
+.term__title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.term__block{
+    display: flex;
+    gap: 40px;
+    padding: 35px;
+}
+
+.term__block-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    
+}
+
+.special__title{
+    text-align: center;
+}
+
+.special__block-title{
+    font-size: 26px;
+    color: #caaa84;
+}
+
+.special__block-title{
+    margin-top: 80px;
+}
+
+.footer__title{
+    text-align: center;
+    color: #caaa84;
+    font-size: 26px;
+}
+
+.materials__title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.materials__text{
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+.material__link{
+    color: aquamarine;
+    text-decoration: underline;
     line-height: 50px;
 }
